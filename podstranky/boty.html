@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ObchodiStranka/style.css">
+    <title>StandaShop</title>
+</head>
+<body>
+    <header class="header-standa-shop">
+        <div class="hearder-logo">
+            <a href="/ObchodiStranka/index.html"><h1>StandaShop</h1></a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Vyhledávejte zde">
+            <button class="search-button">search-button</button>
+        </div>
+        
+
+        <div class="cart-box">
+            <div class="iteam-number"></div>
+            <div class="shoping-cart">
+                <a href="kosik.html"><button class="cart-button">cart-button</button></a>
+            </div>
+            <span>Váš košík</span>
+        </div>
+    </header>
+
+    <div class="page-content-box">
+        <section class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li><a href="bundy.html"><button class="menu-button">Bundy</button></a></li>
+                    <li><a href="kalhoty.html"><button class="menu-button">Kalhoty</button></a></li>
+                    <li><a href="doplnky.html"><button class="menu-button">Doplnky k oblečení</button></a></li>
+                    <li><a href="boty.html"><button class="menu-button">Boty</button></a></li>
+                    <li><a href="batohy.html"><button class="menu-button">Batohy</button></a></li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="main-page">
+            <div class="mobile-header-content">
+                <div class="mobile-search-box">
+                    <button class="mobile-search-button"><img src="/ObchodiStranka/images/search.svg" alt="search image"></button>
+                </div>
+                <div class="menu-bar-mobile">
+                    <button onfocus="mobileMenu()"><img src="/ObchodiStranka/images/menu.png" alt="menu icon"></button>
+                </div>
+                <div class="mobile-cart-box">
+                    <div class="mobile-shoping-cart">
+                        <a href="#"><button class="mobile-cart-button"><img src="/ObchodiStranka/images/shopingcart.png" alt="shoping-cart"></button></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="title">
+                <h2>Boty</h2>
+            </div>
+    
+            <div class="iteams-box">
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/204646.webp" alt="RENEGADE 100 GTX MID WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">5</span>
+                    </p>
+                    <p class="product-name">RENEGADE 100 GTX MID WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">9x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">5699,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/202362.webp" alt="BACK-TO-BERKELEY IV TEXTILE WP MEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">BACK-TO-BERKELEY IV TEXTILE WP MEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">10x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3699,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/196817.webp" alt="VECTIV FASTPACK FUTURELIGHT WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,9</span>
+                    </p>
+                    <p class="product-name">VECTIV FASTPACK FUTURELIGHT WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">4x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3699,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/196813.webp" alt="VECTIV FASTPACK MID FUTURELIGHT WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,5</span>
+                    </p>
+                    <p class="product-name">VECTIV FASTPACK MID FUTURELIGHT WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3999,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/202997.webp" alt="LONE PEAK 7 WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,4</span>
+                    </p>
+                    <p class="product-name">LONE PEAK 7 WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">4190,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/202989.webp" alt="LONE PEAK 7 MEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">LONE PEAK 7 MEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">6x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">4190,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/boty/197354.webp" alt="BOULDER X WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,6</span>
+                    </p>
+                    <p class="product-name">BOULDER X WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">7x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">2939,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="/ObchodiStranka/script.js"></script>
+</body>
+</html>

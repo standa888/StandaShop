@@ -1,0 +1,226 @@
+
+@import url(menuBar.css);
+@import url(productsPage.css);
+
+:root {
+    --main_color: #657334;
+    --secundary_color: #D6D989;
+    --brown_color: #9c7e5a;
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(Fonty/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Italica;
+    src: url(Fonty/Poppins-Italic.ttf);
+}
+
+@media (min-width: 1025px) {
+    .mobile-header-content {
+        display: none;
+    }
+}
+
+body {
+    margin: 35px 35px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 100%;
+
+    background-image: url(/ObchodiStranka//images/Foggy-Forest-2-Wall-Mural.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 1024px) {
+    body {
+        background: #fff;
+    }
+}
+
+
+.header-standa-shop {
+    display: flex;
+    border-radius: inherit;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+
+    background-color: var(--main_color);
+    border-bottom: 2px solid #55612d;
+}
+
+.hearder-logo {
+    margin-left: 45px;
+}
+
+.hearder-logo h1 {
+    font-size: 2.5em;
+    font-family: PoppinsBold;
+    color: #fff;
+}
+
+.hearder-logo a {
+    text-decoration: none;
+}
+@media (max-width: 1024px) {
+    .hearder-logo {
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.search-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    height: 40px;
+    width: 30%;    
+    left: 50%;
+    transform: translate(-50%);
+    
+
+    border-radius: 15px;
+    background-color: #fff;
+}
+@media (max-width: 1024px) {
+    .search-box {
+        display: none;
+    }
+}
+
+.search-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    width: 100%;
+    font-size: 1em;
+    font-family: Italica;
+}
+
+.search-button {
+    position: absolute;
+    outline: none;
+    border: 2px solid black;
+    margin-left: 20px;
+    left: 100%;
+    height: 50px;
+    width: 50px;
+  
+    border-radius: 50%;
+    
+    background-color: #fff;
+    color: transparent;
+
+    background-image: url(images/search.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: center;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.search-button:hover {
+    background-color: #d8d8d8;
+}
+
+.cart-box { 
+    display: flex;
+    position: relative;
+    height: 50px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10%;
+}
+@media (max-width: 1024px) {
+    .cart-box {
+        display: none;
+    }
+}
+
+.shoping-cart {
+    position: relative;
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+@media (max-width: 1024px) {
+    .shoping-cart {
+        display: none;
+    }
+}
+
+.cart-box span {
+    font-size: 1.2em;
+    margin-left: 10px;
+    color: #fff;
+    font-family: Italica;
+}
+
+.iteam-number {
+    z-index: 1;
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    
+    margin-bottom: 50px;
+    right: 90%;
+    
+    display: none;
+    
+
+    background-color: red;
+}
+
+@media (max-width: 1024px) {
+    .iteam-number {
+        display: none;
+    }
+}
+
+.cart-button {
+    position: absolute;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+
+    background-image: url(images/shopingcart.png);
+    background-position: 20% 50%;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    
+
+
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+}
+
+.cart-button:hover {
+    background-color: #d8d8d8
+}
+
+
+.page-content-box {
+    display: flex;
+    border: 2px solid #806647;
+    border-top: none;
+    background-color: var(--brown_color);
+    height: max-content;
+    min-height: 500px;
+}
+

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ObchodiStranka/style.css">
+    <title>StandaShop</title>
+</head>
+<body>
+    <header class="header-standa-shop">
+        <div class="hearder-logo">
+            <a href="/ObchodiStranka/index.html"><h1>StandaShop</h1></a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Vyhledávejte zde">
+            <button class="search-button">search-button</button>
+        </div>
+        
+
+        <div class="cart-box">
+            <div class="iteam-number"></div>
+            <div class="shoping-cart">
+                <a href="kosik.html"><button class="cart-button">cart-button</button></a>
+            </div>
+            <span>Váš košík</span>
+        </div>
+    </header>
+
+    <div class="page-content-box">
+        <section class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li><a href="bundy.html"><button class="menu-button">Bundy</button></a></li>
+                    <li><a href="kalhoty.html"><button class="menu-button">Kalhoty</button></a></li>
+                    <li><a href="doplnky.html"><button class="menu-button">Doplnky k oblečení</button></a></li>
+                    <li><a href="boty.html"><button class="menu-button">Boty</button></a></li>
+                    <li><a href="batohy.html"><button class="menu-button">Batohy</button></a></li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="main-page">
+            <div class="mobile-header-content">
+                <div class="mobile-search-box">
+                    <button class="mobile-search-button"><img src="/ObchodiStranka/images/search.svg" alt="search image"></button>
+                </div>
+                <div class="menu-bar-mobile">
+                    <button onfocus="mobileMenu()"><img src="/ObchodiStranka/images/menu.png" alt="menu icon"></button>
+                </div>
+                <div class="mobile-cart-box">
+                    <div class="mobile-shoping-cart">
+                        <a href="#"><button class="mobile-cart-button"><img src="/ObchodiStranka/images/shopingcart.png" alt="shoping-cart"></button></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="title">
+                <h2>Batohy</h2>
+            </div>
+    
+            <div class="iteams-box">
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/199952.webp" alt="UPDAYS 26" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">5</span>
+                    </p>
+                    <p class="product-name">UPDAYS 26</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">9x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3799,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/196004.webp" alt="GUIDE 32+8 SL" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">GUIDE 32+8 SL</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">10x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">2749,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/179518.webp" alt="KIKKI" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,9</span>
+                    </p>
+                    <p class="product-name">KIKKI</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">4x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">1399,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/164796.webp" alt="AIRCONTACT CORE 50 + 10" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,5</span>
+                    </p>
+                    <p class="product-name">AIRCONTACT CORE 50 + 10</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">6699,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/164964.webp" alt="PROLIGHTER 30+10 (MIS2272)" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,4</span>
+                    </p>
+                    <p class="product-name">PROLIGHTER 30+10 (MIS2272)</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3167,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/202267.webp" alt="VÄRMLAND WOOL SIDE POCKET" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">VÄRMLAND WOOL SIDE POCKET</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">6x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">1149,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/batohy/199991.webp" alt="UTILION 30" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,6</span>
+                    </p>
+                    <p class="product-name">UTILION 30</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">7x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3999,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="/ObchodiStranka/script.js"></script>
+</body>
+</html>

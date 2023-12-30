@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ObchodiStranka/style.css">
+    <title>StandaShop</title>
+</head>
+<body>
+    <header class="header-standa-shop">
+        <div class="hearder-logo">
+            <a href="/ObchodiStranka/index.html"><h1>StandaShop</h1></a>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Vyhledávejte zde">
+            <button class="search-button">search-button</button>
+        </div>
+        
+
+        <div class="cart-box">
+            <div class="iteam-number"></div>
+            <div class="shoping-cart">
+                <a href="kosik.html"><button class="cart-button">cart-button</button></a>
+            </div>
+            <span>Váš košík</span>
+        </div>
+    </header>
+
+    <div class="page-content-box">
+        <section class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li><a href="bundy.html"><button class="menu-button">Bundy</button></a></li>
+                    <li><a href="kalhoty.html"><button class="menu-button">Kalhoty</button></a></li>
+                    <li><a href="doplnky.html"><button class="menu-button">Doplnky k oblečení</button></a></li>
+                    <li><a href="boty.html"><button class="menu-button">Boty</button></a></li>
+                    <li><a href="batohy.html"><button class="menu-button">Batohy</button></a></li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="main-page">
+            <div class="mobile-header-content">
+                <div class="mobile-search-box">
+                    <button class="mobile-search-button"><img src="/ObchodiStranka/images/search.svg" alt="search image"></button>
+                </div>
+                <div class="menu-bar-mobile">
+                    <button onfocus="mobileMenu()"><img src="/ObchodiStranka/images/menu.png" alt="menu icon"></button>
+                </div>
+                <div class="mobile-cart-box">
+                    <div class="mobile-shoping-cart">
+                        <a href="#"><button class="mobile-cart-button"><img src="/ObchodiStranka/images/shopingcart.png" alt="shoping-cart"></button></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="title">
+                <h2>Doplnky k oblečení</h2>
+            </div>
+    
+            <div class="iteams-box">
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/204238.webp" alt="EMBROIDERED BIRD TOQUE" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">5</span>
+                    </p>
+                    <p class="product-name">EMBROIDERED BIRD TOQUE</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">9x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">824,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/199561.webp" alt="BD GEAR BEANIE" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">BD GEAR BEANIE</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">10x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">711,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/200947.webp" alt="MILLET HEADBAND" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,9</span>
+                    </p>
+                    <p class="product-name">MILLET HEADBAND</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">4x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">689,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/133220.webp" alt="HIKE+ MEDIUM CREW MEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,5</span>
+                    </p>
+                    <p class="product-name">HIKE+ MEDIUM CREW MEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">719,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/189434.webp" alt="ULTRA RUNNING SOCKS" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,4</span>
+                    </p>
+                    <p class="product-name">ULTRA RUNNING SOCKS</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">519,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/177502.webp" alt="ALL SEASON TREKKER ECO" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">ALL SEASON TREKKER ECO</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">6x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">629,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="/ObchodiStranka/images/Doplnky/204246.webp" alt="WORD HEAD TOQUE" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                            <img src="/ObchodiStranka/images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,6</span>
+                    </p>
+                    <p class="product-name">WORD HEAD TOQUE</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">7x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">824,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="/ObchodiStranka/script.js"></script>
+</body>
+</html>

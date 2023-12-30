@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>StandaShop</title>
+</head>
+<body>
+    <header class="header-standa-shop">
+        <div class="hearder-logo">
+            <h1>StandaShop</h1>
+        </div>
+
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="Vyhledávejte zde">
+            <button class="search-button">search-button</button>
+        </div>
+        
+
+        <div class="cart-box">
+            <div class="iteam-number"></div>
+            <div class="shoping-cart">
+                <a href="#"><button class="cart-button">cart-button</button></a>
+            </div>
+            <span>Váš košík</span>
+        </div>
+    </header>
+
+    <div class="page-content-box">
+        <section class="menu-bar">
+            <div class="menu">
+                <ul>
+                    <li><a href="podstranky/bundy.html"><button class="menu-button">Bundy</button></a></li>
+                    <li><a href="podstranky/kalhoty.html"><button class="menu-button">Kalhoty</button></a></li>
+                    <li><a href="podstranky/doplnky.html"><button class="menu-button">Doplnky k oblečení</button></a></li>
+                    <li><a href="podstranky/boty.html"><button class="menu-button">Boty</button></a></li>
+                    <li><a href="podstranky/batohy.html"><button class="menu-button">Batohy</button></a></li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="main-page">
+            <div class="mobile-header-content">
+                <div class="mobile-search-box">
+                    <button class="mobile-search-button"><img src="images/search.svg" alt="search image"></button>
+                </div>
+                <div class="menu-bar-mobile">
+                    <button onfocus="mobileMenu()"><img src="images/menu.png" alt="menu icon"></button>
+                </div>
+                <div class="mobile-cart-box">
+                    <div class="mobile-shoping-cart">
+                        <a href="#"><button class="mobile-cart-button"><img src="images/shopingcart.png" alt="shoping-cart"></button></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <h2>Nejčastěji kupované</h2>
+            </div>
+    
+            <div class="iteams-box">
+                <a href="#" class="iteam-content">
+                    <img src="images/201787.webp" alt="PINNACLE DOWN JACKET WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">5</span>
+                    </p>
+                    <p class="product-name">PINNACLE DOWN JACKET WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">9x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">6499,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="images/201943.webp" alt="BROAD PEAK IN HOODED JACKET MEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">BROAD PEAK IN HOODED JACKET MEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">10x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">6499,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="images/204933.webp" alt="TIRILL THERMAL JACKET" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,9</span>
+                    </p>
+                    <p class="product-name">TIRILL THERMAL JACKET</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">4x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">5499,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                
+                <a href="#" class="iteam-content">
+                    <img src="images/200368.webp" alt="SNOW FLAKE PARKA WOMEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,5</span>
+                    </p>
+                    <p class="product-name">SNOW FLAKE PARKA WOMEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">3x</span> ve skladu</p>
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">4999,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="images/204644.webp" alt="RENEGADE 100 GTX MID MEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">5</span>
+                    </p>
+                    <p class="product-name">RENEGADE 100 GTX MID MEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">12x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">6299,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+                <a href="#" class="iteam-content">
+                    <img src="images/202362.webp" alt="BACK-TO-BERKELEY IV TEXTILE WP MEN" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,7</span>
+                    </p>
+                    <p class="product-name">BACK-TO-BERKELEY IV TEXTILE WP MEN</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">4x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3399,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+
+                <a href="#" class="iteam-content">
+                    <img src="images/202354.webp" alt="ANKENY II HIKER WP" class="product-image">
+                    <p>
+                        <span class="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                            <img src="images/star.png" alt="rating">
+                        </span>
+                        <span class="rating-number">4,8</span>
+                    </p>
+                    <p class="product-name">ANKENY II HIKER WP</p>
+                    <p class="iteam-stock-content"><span class="iteam-stock">5x</span> ve skladu</p>
+                    
+    
+                    <div class="price-info">
+                        <div class="price-sale"></div>
+                        <div class="price">3699,-</div>
+                    </div>
+                    <div class="add-cart">
+                        <button onclick="addToCart()">Do košíku</button>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
